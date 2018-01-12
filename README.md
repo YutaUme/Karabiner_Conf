@@ -1,4 +1,4 @@
-# Karabiner_Configulation File
+# Karabiner_Configuration File
 This is my Karabiner Configuration File
 
 
