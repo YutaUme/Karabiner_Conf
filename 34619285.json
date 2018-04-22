@@ -132,7 +132,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "colon",
+            "key_code": "quote",
             "modifiers": {
               "mandatory": [
                 "fn"
@@ -169,7 +169,8 @@
           },
           "to": [
             {
-              "key_code": "home"
+              "key_code": "left_arrow",
+              "modifiers": ["command"]
             }
           ]
         }
@@ -194,7 +195,8 @@
           },
           "to": [
             {
-              "key_code": "end"
+              "key_code": "right_arrow",
+              "modifiers": ["command"]
             }
           ]
         }
