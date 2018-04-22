@@ -14,4 +14,5 @@ Then you can select the these modifications
 - "fn" + "s" -> "←(left_arrow)"
 - "fn" + "semicolon" -> "delete_or_backspace"
 - "fn" + "colon" -> "enter_or_return"
-
+- "fn" + "j" -> "home"
+- "fn" + "k" -> "end"
