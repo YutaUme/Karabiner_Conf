@@ -152,12 +152,12 @@
     },
 
     {
-      "description": "fn + j -> home",
+      "description": "fn + k -> home",
       "manipulators": [
         {
           "type": "basic",
           "from": {
-            "key_code": "j",
+            "key_code": "k",
             "modifiers": {
               "mandatory": [
                 "fn"
@@ -178,12 +178,12 @@
     },
 
     {
-      "description": "fn + m -> end",
+      "description": "fn + , -> end",
       "manipulators": [
         {
           "type": "basic",
           "from": {
-            "key_code": "m",
+            "key_code": "comma",
             "modifiers": {
               "mandatory": [
                 "fn"
