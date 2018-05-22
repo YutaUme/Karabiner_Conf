@@ -169,8 +169,8 @@
           },
           "to": [
             {
-              "key_code": "left_arrow",
-              "modifiers": ["command"]
+              "key_code": "a",
+              "modifiers": ["control"]
             }
           ]
         }
@@ -178,12 +178,12 @@
     },
 
     {
-      "description": "fn + k -> end",
+      "description": "fn + m -> end",
       "manipulators": [
         {
           "type": "basic",
           "from": {
-            "key_code": "k",
+            "key_code": "m",
             "modifiers": {
               "mandatory": [
                 "fn"
@@ -195,8 +195,8 @@
           },
           "to": [
             {
-              "key_code": "right_arrow",
-              "modifiers": ["command"]
+              "key_code": "e",
+              "modifiers": ["control"]
             }
           ]
         }
