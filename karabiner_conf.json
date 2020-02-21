@@ -1,196 +1,233 @@
 {
     "title": "Personal Configulation",
-    "rules": [{
-            "description": "fn + f -> right_arrow",
-            "manipulators": [{
-                "type": "basic",
-                "from": {
-                    "key_code": "f",
-                    "modifiers": {
-                        "mandatory": [
-                            "fn"
-                        ],
-                        "optional": [
-                            "any"
-                        ]
-                    }
-                },
-                "to": [{
-                    "key_code": "right_arrow"
-                }]
-            }]
-        },
-
+    "rules": [
         {
-            "description": "fn + d -> down_arrow",
-            "manipulators": [{
-                "type": "basic",
-                "from": {
-                    "key_code": "d",
-                    "modifiers": {
-                        "mandatory": [
-                            "fn"
-                        ],
-                        "optional": [
-                            "any"
-                        ]
-                    }
-                },
-                "to": [{
-                    "key_code": "down_arrow"
-                }]
-            }]
+            "description": "fn + l -> right_arrow",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "l",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "right_arrow"
+                        }
+                    ]
+                }
+            ]
         },
-
         {
-            "description": "fn + e -> up_arrow",
-            "manipulators": [{
-                "type": "basic",
-                "from": {
-                    "key_code": "e",
-                    "modifiers": {
-                        "mandatory": [
-                            "fn"
-                        ],
-                        "optional": [
-                            "any"
-                        ]
-                    }
-                },
-                "to": [{
-                    "key_code": "up_arrow"
-                }]
-            }]
+            "description": "fn + j -> down_arrow",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "j",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "down_arrow"
+                        }
+                    ]
+                }
+            ]
         },
-
         {
-            "description": "fn + s -> left_arrow",
-            "manipulators": [{
-                "type": "basic",
-                "from": {
-                    "key_code": "s",
-                    "modifiers": {
-                        "mandatory": [
-                            "fn"
-                        ],
-                        "optional": [
-                            "any"
-                        ]
-                    }
-                },
-                "to": [{
-                    "key_code": "left_arrow"
-                }]
-            }]
+            "description": "fn + k -> up_arrow",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "k",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "up_arrow"
+                        }
+                    ]
+                }
+            ]
         },
-
+        {
+            "description": "fn + h -> left_arrow",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "h",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_arrow"
+                        }
+                    ]
+                }
+            ]
+        },
         {
             "description": "fn + semicolon -> delete_or_backspace",
-            "manipulators": [{
-                "type": "basic",
-                "from": {
-                    "key_code": "semicolon",
-                    "modifiers": {
-                        "mandatory": [
-                            "fn"
-                        ],
-                        "optional": [
-                            "any"
-                        ]
-                    }
-                },
-                "to": [{
-                    "key_code": "delete_or_backspace"
-                }]
-            }]
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "semicolon",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "delete_or_backspace"
+                        }
+                    ]
+                }
+            ]
         },
-
         {
-            "description": "fn + k -> home",
-            "manipulators": [{
-                "type": "basic",
-                "from": {
-                    "key_code": "k",
-                    "modifiers": {
-                        "mandatory": [
-                            "fn"
-                        ],
-                        "optional": [
-                            "any"
-                        ]
-                    }
-                },
-                "to": [{
-                    "key_code": "a",
-                    "modifiers": ["control"]
-                }]
-            }]
+            "description": "fn + a -> move to head of line",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "a",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "a",
+                            "modifiers": [
+                                "control"
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
-
         {
-            "description": "fn + ,(comma) -> end",
-            "manipulators": [{
-                "type": "basic",
-                "from": {
-                    "key_code": "comma",
-                    "modifiers": {
-                        "mandatory": [
-                            "fn"
-                        ],
-                        "optional": [
-                            "any"
-                        ]
-                    }
-                },
-                "to": [{
-                    "key_code": "e",
-                    "modifiers": ["control"]
-                }]
-            }]
+            "description": "fn + z -> move to end of line",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "z",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "e",
+                            "modifiers": [
+                                "control"
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
-
         {
-            "description": "fn + j -> Option + left_arrow",
-            "manipulators": [{
-                "type": "basic",
-                "from": {
-                    "key_code": "j",
-                    "modifiers": {
-                        "mandatory": [
-                            "fn"
-                        ],
-                        "optional": [
-                            "any"
-                        ]
-                    }
-                },
-                "to": [{
-                    "key_code": "left_arrow",
-                    "modifiers": ["option"]
-                }]
-            }]
+            "description": "fn + n -> move to head of left word",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "n",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_arrow",
+                            "modifiers": [
+                                "option"
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
-
         {
-            "description": "fn + m -> Option + right_arrow",
-            "manipulators": [{
-                "type": "basic",
-                "from": {
-                    "key_code": "m",
-                    "modifiers": {
-                        "mandatory": [
-                            "fn"
-                        ],
-                        "optional": [
-                            "any"
-                        ]
-                    }
-                },
-                "to": [{
-                    "key_code": "right_arrow",
-                    "modifiers": ["option"]
-                }]
-            }]
+            "description": "fn + m -> move to end of right word",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "m",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "right_arrow",
+                            "modifiers": [
+                                "option"
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
